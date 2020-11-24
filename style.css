@@ -1,0 +1,524 @@
+
+/* ________CSS_____________header_____________*/
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: 0px;
+}
+
+body{
+    background :url(https://github.githubassets.com/images/modules/site/heroes/simple-codelines.svg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(43,49,55);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+    padding-top: 19px;
+    padding-right: 50px;
+}
+
+header svg:first-child{
+    fill: white;  
+}
+header ul li a[class="firstA"]{
+    padding-left: 15px;
+}
+header .div1 ul li a:not([class="firstA"]):not([class="firstB"]){
+    padding-right: 10px;
+    padding-left: -10px;
+}
+header ul li,li{
+    list-style-type: none;   
+}
+
+header a{
+    text-decoration: none;
+    padding: 7px 0px 0px 0px;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+header .div1{
+    flex-grow: 1;
+    text-indent: 7px;
+}
+header .div1,.div2{
+    display: flex;
+    flex-direction: row;
+    line-height: 2;
+}
+
+header .div2 input[type="text"]{
+    height: 33px;
+    border-radius: 5px;
+    border:0px;
+    text-indent: 10px;
+    background-color: rgb(36,41,46);
+    padding-right: 0px;
+    color: white;
+     vertical-align: middle;
+    margin-left: 10px;
+    font-size: 0.9em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header .div1 li{
+    float: left;
+}
+
+header a sub{
+    color: gray;
+    padding-right: 0px;
+}
+header .div2 img[alt="srh"]{
+    position: relative;
+    right: 30px;
+}
+
+header .div2 li:last-child a{
+    border:1px solid white;
+    border-radius: 6px;
+    padding-bottom: 6px;
+    padding-right: 8px;
+    padding-top: 5px;
+    padding-left: 8px;
+}
+header .div2 li:not(:last-child) a{
+    padding-right: 15px;
+    padding-left: 0px;
+}
+
+
+header ul li ul{
+    display: none;
+}
+
+
+
+/* ___________END_____CSS___________header_____________*/
+
+/* __________CSS___________main_________________________*/
+
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 570px;
+}
+main .left{
+    text-align: center;
+    height: 300px;
+    width: 50%;
+    padding-top: 1px;
+    padding-left: 13%;
+    font-family:'Inter', sans-serif;;
+
+}
+
+main .left h1{
+    color: white;
+    font-size: 4.0em;
+    text-align: start;
+    font-weight: 500;
+    padding-bottom: 10px;
+    line-height: 1.0em;
+}
+
+main .right{
+    width: 51%;
+    height: 500px;
+    padding-right: 11%;
+    text-align: center;
+    padding-top: 1px;
+    margin-bottom: 40px;
+}
+
+main .left p{
+    text-align: start;
+    color: #A6ADAF;
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+main .left p a{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 3.2px;
+    border-bottom: 0.01px solid gray;
+
+}
+main .right .form{
+background-color: white;
+height: 490px;
+width: 80%;
+margin-left: 10%;
+border-radius: 5px;
+padding-top: 4px;
+}
+
+
+main .right .form *{
+    display: block;
+    margin-left: 10px;
+    line-height: 2em;
+}
+main .right .form label{
+    text-align: start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding-top: 14px;
+}
+main .right .form p{
+    font-size: 12px;
+    text-align: start;
+    margin-top: 14px;
+    line-height: 10px;
+    color: rgb(58, 58, 58);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main .right .form p a{
+    display: inline;
+    text-decoration: none;
+}
+
+
+main .right .form input:not([type="submit"]){
+ border-radius: 5px;
+ border: 1px #E1E4E8 solid;
+ padding:10px;
+ width: 88%;
+}
+main .right .form input[type="submit"]{
+    margin-top: 10px;
+ width: 92%;
+ padding:22px;
+ border: 0px ;
+ background-color: #2EBC4F;
+border-radius: 5px;
+color: white;
+font-weight: bold;
+}
+
+main .right .form p:last-child{
+margin-top:24px;
+position: relative;
+line-height: 10px;
+}
+
+/*         article           erea            */
+article {
+width: auto;
+height:auto;
+background-color: white;
+margin: 0px;
+}
+article .white_section .Enterprise{
+height: 330px;
+width: 90%;
+margin-left:5%;
+display: flex;
+margin-right: 5%;
+flex-direction: row;
+position: relative;
+bottom:  27px;
+align-items: center;
+justify-content: space-between;
+box-shadow:  1px 1px 14px 0.5px rgba(128, 128, 128, 0.144);
+}
+
+article  .white_section img[alt="robo"]{
+    float: right;
+    width: 420px;
+margin-top: -38px;
+margin-right: 54px;
+}
+article .white_section .Enterprise img{
+    width: 50px;
+    height: 50px;
+}
+article .white_section .Enterprise .Enterprise_sub_1{
+    text-align: start;
+    width: 28%;
+    height: 180px;
+    padding-top: 10px;
+    padding-left: 59px;
+}
+article .white_section .Enterprise .Enterprise_sub_1 h4{
+    font-family: inter;
+    font-size: 32px;
+    font-weight: 500;
+}
+article .white_section .Enterprise .Enterprise_sub_1  p{
+    line-height: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300px;
+    color: #586069;
+    font-family:  'Segoe UI';
+}
+
+article .white_section .Enterprise .Enterprise_sub_2 {
+    text-align: center;
+    font-family: inter;
+    margin-left: 30px;
+}
+article .white_section .Enterprise .Enterprise_sub_2 h4{
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+article .white_section .Enterprise .Enterprise_sub_2 p{
+    color: #586069;
+    font-size: 13px;
+    font-weight: 300;
+    word-spacing: 2px;
+    margin-top: 5px;
+}
+
+
+article .white_section .Enterprise .Enterprise_sub_2 input{
+    border:none;
+    background-color: #1074E7;
+    color: white;
+    font-weight: bold;
+    padding:20px;
+    border-radius: 5px;
+    margin-top: 29px;
+    font-family: 'Segoe UI';
+}
+
+article .white_section .Enterprise .Enterprise_sub_3{
+    text-align: center;
+    font-family: inter;
+    margin-right: 120px;
+}
+article .white_section .Enterprise .Enterprise_sub_3 h4{
+letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+article .white_section .Enterprise .Enterprise_sub_3 .need_help{
+ 
+    color: #586069;
+    font-size: 13px;
+    font-weight: 300;
+    word-spacing: 2px;
+    margin-top: 5px;
+}
+
+article .white_section .Enterprise .Enterprise_sub_3 button{
+    border:1px solid #1074E7;
+padding:20px;
+background-color: transparent;
+border-radius: 5px;
+margin-top: 29px;
+font-weight: bold;
+cursor: pointer;
+color:#1074E7;
+font-family: 'Segoe UI';
+}
+article .white_section .Enterprise .Enterprise_sub_3 button p {
+    width: 105px;
+    text-align: start;
+}
+
+article .white_section .Enterprise .Enterprise_sub_3 button:hover > p span{
+position: relative;
+}
+article .white_section .Enterprise .Enterprise_sub_3 button:hover   >p span{
+    margin-left: 5px;
+}
+
+article  .white_section .unverse{
+    margin-top: 60px;
+    background: url("https://github.githubassets.com/images/modules/site/events/universe-bg.jpg");
+    height: 250px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin:60px 5% 60px 5%;
+    background-size: 450px;
+    background-position:bottom right;
+    background-color: black;
+    padding: 80px  0 0 80px;
+    color: white;
+}
+
+article .white_section .unverse img{
+    height: 25px;
+    padding-bottom: 10px;
+}
+article .white_section .unverse h4{
+    font-size: 25px;
+    font-family: inter;
+    font-weight: normal;
+    padding-bottom: 7px;
+}
+article .white_section .unverse .par{
+    width:470px;
+    font-family: 'Segoe UI';
+
+}
+article .white_section .unverse .lastP{
+    margin-top: 20px;
+    position: relative;
+    width: 90px;
+    cursor: pointer;
+    text-align: start;
+}
+article .white_section .unverse p a{
+    text-decoration: none;
+    color: #FF7170;
+    font-weight: normal;
+}
+
+
+article .white_section .unverse p[class="lastP"]  {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: 'Segoe UI';
+    background-clip: text;
+    box-decoration-break: clone;
+
+}
+article .white_section .unverse p span{
+    -webkit-text-fill-color: #FF7170;
+}
+article .white_section .unverse p :hover {
+    margin-right:20px;
+}
+article  .white_section .info{
+    text-align: center;
+    color: grey;
+    font-size: 21px;
+    font-family: inter;
+    font-weight: normal;
+    padding-left:20%;
+    padding-right: 20%;
+    margin-bottom: 30px;
+}
+
+
+article  .white_section .info  p{
+    padding-bottom: 30px;
+}
+
+article  .white_section .info ul li{
+display: inline;
+padding-right: 50px;
+text-align: center;
+vertical-align: 40px;
+}
+
+.img1, .img5,.img6,.img7,.img10,.img12{
+width: 100px;
+}
+.img7,.img8,.img9{
+    margin-left: 10px;
+}
+article  .white_section .info img{
+    filter: grayscale(100%);
+    height: 25px;
+}
+article  .white_section .for-teams{
+    font-weight: normal;
+    font-family: 'consolas';
+    font-size: 15px;
+text-align: center;
+color: grey;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+article  .white_section .better-way{
+    text-align: center;
+}
+
+article  .white_section .better-way h3{
+color: black;
+font-size: 44px;
+font-family: inter;
+font-weight: normal;
+padding-bottom: 10px;
+}
+
+
+article  .white_section .better-way pre{
+    color: grey;
+    font-family: inter;
+    font-weight: 100;
+line-height: 20px;
+font-size: 17px;
+letter-spacing: 1px;
+}
+
+
+
+article  .white_section .better-way button{
+    border:1px solid #1074E7;
+padding:20px;
+padding-left: 24px;
+background-color: transparent;
+border-radius: 5px;
+margin-top: 29px;
+font-weight: 500;
+cursor: pointer;
+color:#1074E7;
+font-family: 'Segoe UI';
+}
+article  .white_section .better-way button p {
+    width: 155px;
+    text-align: start;
+    font-size: 15px;
+}
+
+article  .white_section .better-way button:hover > p span{
+position: relative;
+transition: margin-left 0.3s linear;
+}
+article  .white_section .better-way button:hover   >p span{
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
